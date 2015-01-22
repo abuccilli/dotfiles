@@ -1,0 +1,6 @@
+#Andrew Buccilli, 07 Jan 2015
+#Conor Henderson, 22 June 2009
+
+Rint.Logon:              $(HOME)/.rootlogon.C
+
+Canvas.ShowEventStatus:     true
