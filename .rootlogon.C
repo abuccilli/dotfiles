@@ -1,5 +1,5 @@
 {
-
+  
   //load CMS libraries
   gSystem->Load("libFWCoreFWLite.so");
   AutoLibraryLoader::enable();
@@ -33,7 +33,7 @@
 
   gStyle->SetPadTickX(1);
   gStyle->SetPadTickY(1);
-  gStyle->SetOptDate(1);
+  //gStyle->SetOptDate(1); //adds date/time stamp to hist/canvas
   gStyle->SetLabelSize(0.05);
   gStyle->SetLabelOffset(0.005);
   gStyle->SetTitleYOffset(0.98);
@@ -46,5 +46,5 @@
   gStyle->SetMarkerStyle(20);
   
   gStyle->SetNdivisions(505);  
-
+  
 }
