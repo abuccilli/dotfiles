@@ -1,0 +1,21 @@
+#.bash_login
+
+export CLICOLOR=1
+
+alias lxplus="ssh -Y abuccill@lxplus.cern.ch"
+alias cmslpc5="ssh -Y abuccill@cmslpc-sl5.fnal.gov"
+alias cmslpc6="ssh -Y abuccill@cmslpc-sl6.fnal.gov"
+alias fnal="kinit -A -f abuccill@FNAL.GOV"
+
+alias root="root -l"
+alias emacs="emacs -nw"
+
+alias ll="ls -l"
+
+#setup root
+export ROOTSYS='/Users/abuccilli/root-v5-34-00-patches'
+export PATH="$ROOTSYS/bin:$PATH"
+export LD_LIBRARY_PATH="$ROOTSYS/lib:$LD_LIBRARY_PATH"
+
+export PATH="~/usr/bin/get-cert:$PATH"
+
