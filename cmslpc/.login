@@ -11,3 +11,10 @@ alias emacs 'emacs -nw' #no window mode
 alias root  'root -l'   #don't load splash screen
 
 setenv MYEOS /eos/uscms/store/user/abuccill/
+
+alias hn 'echo "`date` $HOSTNAME" >> ~/hostname.log'
+
+#alias screen '\screen -dmS myscreen ; screen -rS myscreen -p 0 -X stuff hn ; screen -r'    
+
+echo " "    
+echo "Type hn to log host, especially if using screen." 
