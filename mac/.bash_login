@@ -8,14 +8,24 @@ alias cmslpc6="ssh -Y abuccill@cmslpc-sl6.fnal.gov"
 alias fnal="kinit -A -f abuccill@FNAL.GOV"
 
 alias root="root -l"
-alias emacs="emacs -nw"
+#alias emacs="emacs -nw"
 
 alias ll="ls -l"
+alias less="less -R"
+
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
+
+
+export PS1="[\u@\h \W]$ "
 
 #setup root
-export ROOTSYS='/Users/abuccilli/root-v5-34-00-patches'
+#export ROOTSYS='/Users/abuccilli/root-v5-34-00-patches'
+export ROOTSYS='/Users/abuccilli/root'
 export PATH="$ROOTSYS/bin:$PATH"
 export LD_LIBRARY_PATH="$ROOTSYS/lib:$LD_LIBRARY_PATH"
 
 export PATH="~/usr/bin/get-cert:$PATH"
 
+
+alias cmstunnel='ssh -t abuccill@lxplus.cern.ch -L1080:localhost:1080 "ssh -ND 1080 abuccill@cmsusr"' 
+alias hcaldcs='ssh -L 50000:cerntscms.cern.ch:3389 abuccill@lxplus.cern.ch'

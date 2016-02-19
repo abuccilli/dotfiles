@@ -1,9 +1,9 @@
 {
   
   //load CMS libraries
-  gSystem->Load("libFWCoreFWLite.so");
-  AutoLibraryLoader::enable();
-  gSystem->Load("libDataFormatsFWLite.so");
+  //gSystem->Load("libFWCoreFWLite.so");
+  //AutoLibraryLoader::enable();
+  //gSystem->Load("libDataFormatsFWLite.so");
 
 
   //gSystem->Load("libFWCoreFWLite.so");
@@ -12,8 +12,8 @@
   
   //gROOT->SetStyle ("Plain");
   
-  gSystem->Load("libRooFit") ;
-  using namespace RooFit ;
+  //gSystem->Load("libRooFit") ;
+  //using namespace RooFit ;
   //cout << "loaded" << endl;
 
   
