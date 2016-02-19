@@ -11,3 +11,5 @@ export WORKSPACE=/afs/cern.ch/work/a/abuccill
 alias WS='cd $WORKSPACE'
 
 alias emacs='emacs -nw'
+
+alias mycms='ssh -Y abuccill@cmsusr'
